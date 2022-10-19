@@ -1,3 +1,13 @@
-body {
+header {
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    text-align: right;
+    width: 850px;
+    height: 85px;
+    padding: 10px;
+    border: 5px solid rgb(10, 10, 18);
+    background-color: rgb(40, 159, 180);
 }
+
