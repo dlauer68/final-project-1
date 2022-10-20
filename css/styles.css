@@ -21,7 +21,7 @@ hero  {
     backdrop-filter: blur(8px); brightness (80%);
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
-    font-size: 40px;
+    font-size: 70px;
 }
 
 
@@ -33,7 +33,7 @@ header {
     display: inline-block;
     text-align: right;
     width: 825px;
-    height: 85px;
+    height: 100px;
     padding: 10px;
     border: 5px solid rgb(10, 10, 10);
     background-color: gray;
@@ -41,7 +41,7 @@ header {
 }
 
 body {
-    background-color: rgb(39, 182, 221);
+    background-color: rgb(78, 81, 82);
     opacity: 90%;
     padding: 10px;
     
@@ -51,7 +51,8 @@ box {
     border: 20px solid black;
     float: left;
     background-color: white;
-    padding-inline: 20px;
+    padding-inline: 10px;
+    padding color: black;
     height: 300px;
     width: 33.33%;
     display:inline-block
