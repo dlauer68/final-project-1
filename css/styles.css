@@ -1,13 +1,95 @@
+
+* {
+    box-sizing: border-box;
+}
+
+hero  {
+    display: inline;
+    height: 350px;
+    width: 825px;
+    float: left;
+    
+
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    color: white;
+    backdrop-filter: blur(8px); brightness (80%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+
 header {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    display: block;
+    display: inline-block;
+    text-align: right;
+    width: 825px;
+    height: 85px;
+    padding: 10px;
+    border: 5px solid rgb(10, 10, 10);
+    background-color: gray;
+    float: left;
+}
+
+body {
+    background-color: rgb(39, 182, 221);
+    opacity: 90%;
+    padding: 10px;
+    
+}
+
+box {
+    border: 20px solid black;
+    float: left;
+    background-color: white;
+    padding-inline: 20px;
+    height: 300px;
+    width: 33.33%;
+    display:inline-block
+    
+    
+
+}
+
+
+
+.ig {
+    padding: 20px;
+    font-size: 3000px;
+    width: 5000px;
+    
+    
+}
+
+.ig-instagram-footer {
+    background: fixed;
+    font-size: 3000px;
+    width: 80px;
+    position: relative;
+    top: 10px;
+    color: white;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    float:right;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
     text-align: right;
     width: 850px;
     height: 85px;
     padding: 10px;
-    border: 5px solid rgb(10, 10, 18);
-    background-color: rgb(40, 159, 180);
+    border: 5px solid rgb(10, 10, 10);
+    background-color: gray;
+    color: white;
 }
-
