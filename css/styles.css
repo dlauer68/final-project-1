@@ -1,30 +1,57 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding:0;
 }
 
-hero  {
-    display: inline;
-    height: 350px;
-    width: 825px;
-    float: left;
+
+.nav {
+    color: rgb(96, 92, 92);
+    position:absolute;
+    border-width: 5px;
+    border-color: black;
+
+}
+
+.summary {
+    text-align:center;
+    font-family: 'Poppins',sans-serif;
+    font-size: 85px;
+    color: rgb(70, 14, 122);
+    font-weight: bolder;
+    margin-top: 0%;
     
+}
+
+.creators {
+    text-align:center;
+    font-family: 'Poppins',sans-serif;
+    font-size: 40px;
+    color: rgb(70, 14, 122);
+    font-weight: bolder;
+    margin-top: 0%;
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(246, 244, 248);
+    height: 300px;
+    opacity: 15%;
 
 }
 
-.text-overlay {
+.top-left text {
     position: absolute;
-    top: 0;
-    left: 0;
-    padding: 1rem;
-    color: white;
-    backdrop-filter: blur(8px); brightness (80%);
+    top: 8px;
+    left: 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
-    font-size: 70px;
+    font-size: 120px;
+    color: blueviolet;
 }
-
-
 
 header {
     font-family: 'Poppins', sans-serif;
@@ -32,65 +59,79 @@ header {
     font-size: 20px;
     display: inline-block;
     text-align: right;
-    width: 825px;
-    height: 100px;
+    height: 625px;
     padding: 10px;
-    border: 5px solid rgb(10, 10, 10);
-    background-color: gray;
-    float: left;
+    background-color: rgb(87, 5, 102);
 }
 
 body {
-    background-color: rgb(78, 81, 82);
+    background-color: rgb(133, 144, 148);
     opacity: 90%;
     padding: 10px;
     
 }
 
-box {
-    border: 20px solid black;
+.column {
     float: left;
-    background-color: white;
-    padding-inline: 10px;
-    padding color: black;
-    height: 300px;
     width: 33.33%;
-    display:inline-block
-    
     
 
 }
+    
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
 
 
+.row::after {
+    content: "";
+    display: table;
+    clear:both
+}
+
+.img {
+    box-shadow: 10px;
+    border-color: blueviolet;
+    border-width: 5px;
+}
 
 .ig {
     padding: 20px;
-    font-size: 3000px;
-    width: 5000px;
+    font-size: 3000px
     
     
 }
 
-.ig-instagram-footer {
+.fa-brands {
     background: fixed;
-    font-size: 3000px;
-    width: 80px;
+    font-size: 60px;
+    width: 60px;
+    float: left;
     position: relative;
-    top: 10px;
-    color: white;
+    color: rgb(232, 10, 10);
+    background-color: white;
 }
 
 footer {
+    position: sticky;
+    background: #f2eeee;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: rgb(139, 7, 128);
     font-family: 'Poppins', sans-serif;
-    float:right;
-    font-weight: bold;
     font-size: 20px;
     display: inline-block;
-    text-align: right;
-    width: 850px;
-    height: 85px;
-    padding: 10px;
-    border: 5px solid rgb(10, 10, 10);
-    background-color: gray;
-    color: white;
+
+
+}
+
+button {
+    background-color: blueviolet;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
 }
