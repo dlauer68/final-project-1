@@ -8,7 +8,7 @@
 
 .nav {
     color: rgb(96, 92, 92);
-    position:absolute;
+    position:fixed;
     border-width: 5px;
     border-color: black;
 
@@ -18,9 +18,8 @@
     text-align:center;
     font-family: 'Poppins',sans-serif;
     font-size: 85px;
-    color: rgb(70, 14, 122);
+    color: rgb(32, 5, 58);
     font-weight: bolder;
-    margin-top: 0%;
     
 }
 
@@ -40,6 +39,7 @@
     color: rgb(246, 244, 248);
     height: 300px;
     opacity: 15%;
+    margin-top: 23px;
 
 }
 
@@ -57,7 +57,7 @@ header {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    display: inline-block;
+    display: inline-flexbox;
     text-align: right;
     height: 625px;
     padding: 10px;
@@ -115,23 +115,34 @@ body {
 
 footer {
     position: sticky;
-    background: #f2eeee;
+    background: #f0f3f4;
+    border-color: rgb(87, 13, 156);
+    border-width: 20px;
     height: auto;
     width: 100vw;
     padding-top: 40px;
-    color: rgb(139, 7, 128);
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    display: inline-block;
+    display: inline-flexbox;
 
+}
+
+.column1 {
+    width: 50%;
+    float: left;
+    opacity: 100%;
+    border: black;
+    border-width: 5px;
 
 }
 
 button {
-    background-color: blueviolet;
+    background-color: rgb(226, 43, 43);
     border: none;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
+    color: antiquewhite;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
