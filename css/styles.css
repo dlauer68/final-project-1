@@ -43,16 +43,6 @@
 
 }
 
-.top-left text {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
-    font-size: 120px;
-    color: blueviolet;
-}
-
 header {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -75,66 +65,44 @@ body {
     float: left;
     width: 33.33%;
     
-
-}
-    
-.column img {
-    opacity: 0.8;
-    cursor: pointer;
 }
 
-
-.row::after {
-    content: "";
-    display: table;
-    clear:both
-}
 
 .img {
     box-shadow: 10px;
     border-color: blueviolet;
-    border-width: 5px;
+    border-width: 5px
+    
+    
 }
 
-.ig {
-    padding: 20px;
-    font-size: 3000px
-    
-    
+
+
+.footer {
+    background: #f0f3f4;
+    border-color: rgb(87, 13, 156);
+    height: 100px;
+    width: 100%;
+    padding:0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    display: inline;
+    text-align: right;
+
 }
 
 .fa-brands {
-    background: fixed;
     font-size: 60px;
-    width: 60px;
-    float: left;
-    position: relative;
+    height: 100px;
+    width: 100%;
     color: rgb(232, 10, 10);
     background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 0px;
+    display: inline;
+    text-align: left;
 }
 
-footer {
-    position: sticky;
-    background: #f0f3f4;
-    border-color: rgb(87, 13, 156);
-    border-width: 20px;
-    height: auto;
-    width: 100vw;
-    padding-top: 40px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    display: inline-flexbox;
-
-}
-
-.column1 {
-    width: 50%;
-    float: left;
-    opacity: 100%;
-    border: black;
-    border-width: 5px;
-
-}
 
 button {
     background-color: rgb(226, 43, 43);
